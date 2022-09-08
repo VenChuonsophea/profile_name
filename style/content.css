@@ -1,0 +1,103 @@
+.content {
+   position: absolute;
+   right: 0;
+   top: 0;
+   width: 77%;
+   padding: 0 20px;
+   background: #333;
+   /* height: 100vh; */
+}
+
+.content h1 {
+   padding: 15px 0;
+   font-weight: 400;
+   font-size: 3em;
+   color: #fff;
+}
+
+.content button {
+   font-size: 1.4em;
+   padding: 6px 20px;
+   border-radius: 5px;
+   margin-left: 5px;
+   border: none;
+}
+
+.content button a {
+   text-transform: capitalize;
+}
+
+.content button a:hover {
+   transform: scale(1.025);
+   margin: 0 10px;
+   color: #fff;
+}
+
+.content button:hover {
+   background: #999;
+}
+
+hr {
+   margin: 15px 0;
+   height: 3px;
+   background: #fff;
+}
+
+/* reponsive menu */
+.content .reponsive {
+   display: none;
+   width: 100%;
+   padding: 20px;
+   margin-bottom: 10px;
+}
+
+.content .reponsive a {
+   float: left;
+   font-size: 2em;
+   color: #fff;
+}
+
+.content .reponsive .img-profile {
+   float: right;
+   width: 60px;
+   height: 60px;
+   border: 2px solid #fff;
+   border-radius: 50%;
+   overflow: hidden;
+}
+
+.all {
+   width: 100%;
+   /* margin-bottom: 50px; */
+}
+
+.all .icon {
+   display: none;
+   font-size: 1.9em;
+   color: #fff;
+   float: right;
+}
+
+@media (max-width:1173px) {
+   .content .reponsive {
+      display: block;
+   }
+
+   .content {
+      width: 100%;
+   }
+
+   .main .menu {
+      display: none;
+   }
+}
+
+@media (max-width:740px) {
+   .all .icon {
+      display: block;
+   }
+
+   .all button:nth-child(3), .all button:nth-child(5), .all button:nth-child(6), .all button:nth-child(4) {
+      display: none;
+   }
+}

@@ -1,0 +1,54 @@
+body {
+   position: relative;
+   background: #111;
+}
+
+.main .menu {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 23%;
+   padding: 20px;
+   height: 100vh;
+
+}
+
+.main .menu .profile {
+   width: 150px;
+   height: 20vh;
+   border-radius: 15px;
+   overflow: hidden;
+}
+
+.main .menu .profile:hover {
+   transform: scale(1.025);
+}
+
+.main .menu h1 {
+   text-transform: uppercase;
+   padding: 40px 0;
+   color: #fff;
+   font-size: 2em;
+   letter-spacing: 1px;
+}
+
+.main .menu li {
+   padding: 7px 0;
+   width: 100%;
+}
+
+.main .menu li a {
+   margin-top: 15px;
+   font-size: 1.5em;
+   color: #fff;
+   text-decoration: none;
+   letter-spacing: 1px;
+}
+
+.main .menu li a:hover {
+   margin-left: 20px;
+}
+
+.fa-solid {
+   padding-right: 10px;
+}
